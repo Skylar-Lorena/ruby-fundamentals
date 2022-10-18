@@ -94,17 +94,60 @@ Symbol.new(:symbol)
 
 
 # 7.0 Hashes
-# TODO: Create Hash
 #Delta Group
+# TODO: Create Hash
+#Hashes store data in the form of UNIQUE key-value pairs
+#Real-Life examples of key-value pairs
+#A list of country names & their corresponding country codes (like ES ⇾ Spain)
+#A dictionary, where every word has a list of possible definitions
+#A list of students & their corresponding grades
+fruits = { coconut: 1, apple: 2, banana: 3 }
+data = {name: 'akshay', last_name: 'kakade'}
 
 # TODO: Create Hash using Hash class
 #Delta Group
+Hash.new({key: "value"})
 
 # 8.0 Methods
-# TODO: Ruby Method with enclosed params
+#Methods are blocks of code that can be called on an object
+#They are defined with the def keyword
+#They can be called with the method name and parentheses
+#They can take arguments
+#They can return a value
+
+#method syntax
+def method_name
+    #method body
+end 
+
+# What is a parameter? 
+# A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters. Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function.
+# What is an argument? 
+# An argument is the actual value of this variable that gets passed to function.
+# What is the difference between a parameter and an argument?
+# A parameter is the variable listed inside the parentheses in the method definition. An argument is the actual value of this variable that gets passed to function.
+
+# Do all methods in Ruby have parameters?
+# No, methods can be defined without parameters
+
+# TODO: Example Ruby Method with required parameters
+def add(a, b, c)
+    a + b + c
+end
+
+# TODO: Example Ruby Method with no parameters
+def say_hello
+    puts "Hello World"
+end
+
+# TODO: Example Ruby Method with default parameters
+def add(a, b, c = 0)
+    a + b + c
+end
 
 
-# TODO: Ruby Method with open params
+
+
 
 
 
