@@ -36,7 +36,7 @@ To use this repo on your machine requires some simple steps
 - Be patient as it creates a copy on your local machine for you.
 - Change directory to the repo folder:
 
-        cd l3-ruby-fundamentals
+        cd ruby-fundamentals
 
 - (Optional) Open it in ``Visual Studio Code``
 
