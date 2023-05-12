@@ -86,29 +86,68 @@ Symbol.new(:symbol)
 
 # 6.0 Arrays
 # TODO: Create array natively
-#Charlie Group
+
 
 
 # TODO: Create array using Array class
-#Charlie Group
+
 
 
 # 7.0 Hashes
-#Delta Group
-# TODO: Create Hash
 #Hashes store data in the form of UNIQUE key-value pairs
+fruits = { coconut: 1, apple: 2, banana: 3 }
+data = {name: 'akshay', last_name: 'kakade'}
 #Real-Life examples of key-value pairs
+# TODO: Create Hash
 #A list of country names & their corresponding country codes (like ES ⇾ Spain)
 #A dictionary, where every word has a list of possible definitions
 #A list of students & their corresponding grades
-fruits = { coconut: 1, apple: 2, banana: 3 }
-data = {name: 'akshay', last_name: 'kakade'}
 
 # TODO: Create Hash using Hash class
-#Delta Group
+
 Hash.new({key: "value"})
 
-# 8.0 Methods
+# 8.0 Variables
+#Variables in Ruby are used to store values that can be referenced and manipulated throughout a program. 
+#They are assigned using the equals sign (=) operator
+#They can be given any name that starts with a lowercase letter or an underscore.
+# Declaring a variable and assigning it a value
+name = "Alice"
+
+# Declaring multiple variables at once
+age, height, weight = 30, 175, 70.5
+
+# Declaring a constant variable (cannot be reassigned)
+PI = 3.14159
+
+# Declaring a variable and assigning it a value
+name = "Alice"
+
+# Declaring multiple variables at once
+age, height, weight = 30, 175, 70.5
+
+# Declaring a constant variable (cannot be reassigned)
+PI = 3.14159
+
+# # TODO: 
+#Declare and assign a variable
+
+# Add 5 to the variable
+
+# Output the new value of the variable
+
+#Interpolation 
+#A way of inserting the value of a variable or expression into a string. 
+#Done by using the #{} notation inside a string.
+name = "Alice"
+age = 30
+puts "My name is #{name} and I am #{age} years old."
+
+#TODO:
+#Use interpolation to insert the result of an expression (a + b) into a string. 
+#The output should be "The sum of 10 and 20 is 30."
+
+# 9.0 Methods
 #Methods are blocks of code that can be called on an object
 #They are defined with the def keyword
 #They can be called with the method name and parentheses
